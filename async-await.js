@@ -70,11 +70,7 @@ const whereAmI = async function () {
 };
 
 btn.addEventListener('click', function () {
-  //Handling return value by async function
-  //   whereAmI()
-  //     .then(city => console.log(city))
-  //     .catch(err => console.error(`${err.message} 💥💥💥`))
-  //     .finally(() => console.log('Code End'));
+  countriesContainer.innerHTML = '';
 
   (async function () {
     try {
